@@ -1,6 +1,4 @@
 cat << 'EOF' > requirements.txt
-torch --index-url https://download.pytorch.org/whl/cpu
-transformers==4.38.2
-tokenizers
-huggingface-hub
+torch
+transformers
 EOF
