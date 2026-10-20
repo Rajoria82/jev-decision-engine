@@ -1,7 +1,8 @@
 cat << 'EOF' > requirements.txt
-streamlit
-transformers
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch
+transformers
+streamlit
 tabulate
 huggingface_hub
 EOF
