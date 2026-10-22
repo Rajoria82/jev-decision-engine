@@ -1,0 +1,11 @@
+test_id,query,predicted_department,confidence,urgency_score,escalated,latency_ms
+TC-01,"UPI payment succeeded, ₹4,999 deducted from bank account, but booking shows failed!",billing and payment,0.7156,1.99,False,21559.53
+TC-02,"Looking for volume enterprise licensing, custom SLA terms, and pricing for a 250-seat team.",sales and enterprise,0.8723,2.14,True,14155.69
+TC-03,Critical production incident: 502 Bad Gateway across all authentication endpoints for past 20 minutes.,technical support,0.4111,2.92,True,8267.79
+TC-04,Where can I find the export button to download last month's PDF invoice?,sales and enterprise,0.4593,2.01,True,7061.11
+TC-05,Can someone help me schedule a product demo with your technical sales architect?,sales and enterprise,0.7112,2.10,True,6373.52
+TC-06,Getting a 401 Unauthorized error when hitting the /api/v2/orders endpoint using valid bearer token.,sales and enterprise,0.4195,2.02,False,8763.51
+TC-07,You charged my credit card twice for the annual plan renewal. Reverse the duplicate charge immediately.,billing and payment,0.5597,2.70,True,6852.72
+TC-08,We are a Fortune 500 company looking to replace our legacy vendor with your enterprise plan.,sales and enterprise,0.9006,2.33,True,7083.50
+TC-09,"Our database connection pool is completely exhausted, entire production cluster is frozen.",technical support,0.6006,2.57,True,6846.93
+TC-10,Could you please update my registered billing email address from old@domain.com to new@domain.com?,billing and payment,0.8820,2.01,True,7202.81
